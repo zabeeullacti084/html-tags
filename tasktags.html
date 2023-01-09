@@ -1,0 +1,383 @@
+<html>
+    <head><title>task</title>
+        <link rel="icon" type="image" href="Images.html/FAVICON.ico.png">
+        <!--  Defines the relationship between a document and an external resource-->
+      
+    <style>
+        .class1{ font-family: impact;
+        }
+        .id1{
+            text-align: center;
+        }
+    </style>
+    <script>
+       function  myFunction(){
+            alert("USED SCRIPT TAG")
+        }
+    </script>
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0"></head>
+        <body>
+            <body style="background-color:#6ec2f7;"></body>
+    <h1> h1 heading level 1</h1>
+    <h2> h2 heading level 2</h2>
+    <h3> h3 heading level 3</h3>
+    <h4> h4 heading level 4</h4>
+    <h5> h5 heading level 5</h5>
+    <h6> h6 heading level 6</h6>
+    <br>
+    <p>This is a paragraph.</p>
+    <b>This text is bold</b><!--The HTML <b> element defines bold text, without any extra importance.--><br>
+        <strong>This text is important!</strong><br>
+        <!--The HTML <strong> element defines text with strong importance. The content inside is typically displayed in bold.-->
+        <i>This text is italic</i><br>
+        <!--The HTML <i> element defines a part of text in an alternate voice or mood. The content inside is typically displayed in italic.-->
+        <em>This text is emphasized</em><!--The HTML <em> element defines emphasized text. The content inside is typically displayed in italic.--><br>
+        <small>This is some smaller text.</small><!--The HTML <small> element defines smaller text:-->
+        <p>Do not forget to buy <mark>milk</mark> today.</p><!--The HTML <mark> element defines text that should be marked or highlighted:-->
+        <p>My favorite color is <del>blue</del> red.</p>
+        <!--The HTML <del> element defines text that has been deleted from a document. Browsers will usually strike a line through deleted text:-->
+        <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+        <!--The HTML <ins> element defines a text that has been inserted into a document. Browsers will usually underline inserted text:-->
+        <p>This is <sub>subscripted</sub> text.</p>
+        <!--The HTML <sub> element defines subscript text. Subscript text appears half a character below the normal line,
+             and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O:-->
+        <p>This is <sup>superscripted</sup> text.</p>
+        <a href="https://www.w3schools.com/">Visit W3Schools.com!</a>
+        <br>
+        <blockquote cite="http://www.worldwildlife.org/who/index.html"><!--The HTML <blockquote> element defines 
+            a section that is quoted from another source.  Browsers usually indent <blockquote> elements.-->
+            For 60 years, WWF has worked to help people and nature thrive.
+             As the world's leading conservation organization, WWF works in nearly 100 countries. 
+             At every level, we collaborate with people around the world to develop and 
+             deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+            </blockquote>
+            <hr>
+            <p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+            <!--The HTML <q> tag defines a short quotation. 
+                Browsers normally insert quotation marks around the quotation.-->
+                <hr>
+                <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+                <!--The HTML <abbr> tag defines an abbreviation or an acronym, like "HTML", "CSS", "Mr.", "Dr.", "ASAP", "ATM".
+                 Marking abbreviations can give useful information to browsers, translation systems and search-engines.-->
+                 <hr>
+                 <address>
+                    Written by John Doe.<br>
+                    Visit us at:<br>
+                    Example.com<br>
+                    Box 564, Disneyland<br>
+                    USA
+                    </address>
+        <!--The HTML <address> tag defines the contact information for the author/owner of a document or an article.
+        
+        The contact information can be an email address, URL, physical address, phone number, social media handle, etc.
+        
+        The text in the <address> element usually renders in italic, and browsers will always add a line break before and after the <address> element.-->
+           <hr>
+            <img src="Images/mona lisa.jpg" width="220" height="277" alt="Mona-Lisa">
+                    <p><cite>mona-lisa</cite> Painting by Leonardo da Vinci.</p>
+        <!--The HTML <cite> tag defines the title of a creative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).-->
+            <hr>
+            <bdo dir="rtl">This text will be written from right to left</bdo>
+            <!--BDO stands for Bi-Directional Override.
+        
+        The HTML <bdo> tag is used to override the current text direction:-->
+                
+
+            <!-- HTML TABLES-->
+<!-- <table></table> used to specify tbale in html
+      <th></th>used to specify header of a table
+      <tr></tr> used to specify row in a table
+      border used to specify the border of the table
+     width it specifies the width of a table in the webpage
+     padding it specifies the space between cell edges and cell content
+     spacing is useed to specify the spacing between the cells in a table
+     calspan is used to merge the cells in a table with columns
+     rowspan is used to merge cells in a table with tables
+     Table styling we can add background color to the table is called as table styling
+     Nested tables inserting a table within a table is called as nested tables.-->
+   
+            <table border="2" width="100%"  padding="10px" border-spacing="10px">
+                <tr>
+                     <th>TABLE HEADING</th>
+                     <TD>TABLE DATA</TD>
+                </tr>
+                <tr>
+                    <th rowspan="2">Row Span</th>
+                    <td>Row 1</td>
+                </tr><tr><td>Row 2</td></tr>
+                <tr>
+                    <th colspan="2">Colspan</th>
+                    
+                    <tr><td> Column 1</td><td>Column 2</td></tr>
+                </tr>
+            </table><br><br>
+            <table border="2">
+                <tr> 
+                    <td>Nested Table</td>
+                    <td><table border="1"><tr><th>Inner Table</th></tr><tr><td> Inner table Data Cell</td></tr></table></td>
+                </tr>
+            </table>
+
+            <!-- HTML Class Attribute is used to specify the styles to the particular element element with unique class name one html element can contain more than one class-->
+             <p class="class1"> This is a Paragraph using Class Attribute</p>
+             <!-- HTML Id Attribute is used to specify the styles to the particular element element with unique Id name one html element can contain oly one Id-->
+             <h1 class="id1"> This is a Paragraph using Id Attribute</h1>
+
+             <!-- IFRAME is used to embed another webpage in a current html documnet-->
+             <iframe src="w.html" height="200px" width="500px" title="Iframe Tag"></iframe><br><br><br>
+
+             <!-- HTML <SCRIPT> tag is used to client-side script( JS()-->
+
+                <button type="button" onclick="myFunction()">click me</button>
+                <br><br>
+                <!-- Inserting image into html using html file path example <img> tag to insert an image into html document-->
+                <img src="Images/full stack.jpg" height="200px" width="200px"><br><br>
+                
+                <!--<header> - Defines a header for a document or a section
+                   <nav> - Defines a set of navigation links
+                   <section> - Defines a section in a document
+                   <article> - Defines an independent, self-contained content
+                   <aside> - Defines content aside from the content (like a sidebar)
+                   <footer> - Defines a footer for a document or a section
+                   <details> - Defines additional details that the user can open and close on demand
+                       <summary> - Defines a heading for the <details> element<header> -->
+
+                        <!-- HTML RESPONSIVIE To create a responsive Website using <meta> viewpoint attribute the web page automatically for different gadgets-->
+
+                        <!-- HTML Computer code can be displayed as it is written in the code using <code> tag-->
+                            <code>
+                               a=5;
+                               b=6;
+                               c=10;
+                            </code><br><br>
+
+                        <!--<kbd> Element define keyboard input it displayes browsers default monospace font.-->
+                            <kbd> CTRL + X </kbd><br>
+                            <br>
+                            <br>
+                    <!-- Character Entities  Used to display the symbols on the webpage using entity name or number-->
+                    <table border="1" padding="3">
+                        <tr>
+                            <td>&nbsp;</td><td>Non breaking space</td>
+                        </tr>
+                        <tr>
+                            <td>&lt;</td><td>Less Than</td>
+                        </tr>
+                        <tr>
+                            <td>&gt;</td><td>Greater than</td>
+                        </tr>
+                        <tr>
+                            <td>&amp;</td><td>Ampersand</td>
+                        </tr>
+                        <tr>
+                            <td>&quot;</td><td>Double-Quotations</td>
+                        </tr>
+                        <tr>
+                            <td>&apos;</td><td>Single-Quotation</td>
+                        </tr>
+                        <tr>
+                            <td>&cent;</td><td>Cent</td>
+                        </tr>
+                        <tr>
+                            <td>&pound;</td><td>Pound</td>
+                        </tr>
+                        <tr>
+                            <td>&yen;</td><td>Yen</td>
+                        </tr>
+                        <tr>
+                            <td>&euro;</td><td>Euro</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>&copy;</td><td>Copyright</td>
+                        </tr>
+                        <tr>
+                            <td>&reg;</td><td>Registerd</td>
+                        </tr>
+                        <tr>
+                            <td>&forall;</td><td>For all</td>
+                        </tr>
+                        <tr>
+                            <td>&part;</td><td>partial difference</td>
+                        </tr>
+                        <tr>
+                            <td>&exist;</td><td>There Exists</td>
+                        </tr>
+                        <tr>
+                            <td>&empty;</td><td>Empty Sets</td>
+                        </tr>
+                        <tr>
+                            <td>&nabla;</td><td>Nabla</td>
+                        </tr>
+                        <tr>
+                            <td>&isin;</td><td>Element of</td>
+                        </tr>
+                        <tr>
+                            <td>&notin;</td><td>not element of</td>
+                        </tr>
+                        <tr>
+                            <td>&ni;</td><td>Contains As Member</td>
+                        </tr>
+                        <tr>
+                            <td>&prod;</td><td>Product</td>
+                        </tr>
+                        <tr>
+                            <td>&sum;</td><td>Summation</td>
+                        </tr>
+
+
+                    </table>
+            <!-- Charset which is used to disp[lay all the symbols through out the world meta charset="UTF-8" containign all the symbols in number entities emojis alo can displayed in charsset="UTF-8" 
+            -->
+
+            <!--<sag> Tag  is used to draw different graphics like circle boxes ploygons etc-->
+                <svg width="100px" height="100px">
+                    <circle cx="50" cy="50" r="30" stroke="black" fill="red"/>
+                </svg>
+                <br><br><br>
+
+                <!-- Html <vedio> tag is used to display vedios in webpage
+                    with attributes width, height, controls - to start and stop the vedio, autoplay- to play vediio automatically, autoplay muted - to play vedio automatically but muted audio-->
+                    <video width="300px" height="200px" autoplay>
+                        <source src="" type="video/mp4">
+                    </video>
+
+               <!-- <audio> tag is used to insert audio into the webpage with attributes muted, autoplay-->
+               <audio controls autoplay>
+                <source src="C:\Users\sailo\OneDrive\Desktop\s.mp3" type="audio/mp3">
+               </audio>
+               <!--<OBJECT></OBJECT> is used to embed am abject within a html document-->
+               <object width="100%" height="500px" data="fullstack.jpg"></object><br><br><br>
+
+               <!-- we van inserty youtube video using source link in html-->
+               <iframe width="100%" height="100%"src="https://www.youtube.com/watch?v=l5jUaLBXEg8"></iframe>
+               
+    <!--<dir> Not supported in HTML5. Use <ul> instead.
+    Defines a directory list-->
+   
+<!--An unordered list starts with the <ul> tag. Each list item starts with the <li> tag.
+The list items will be marked with bullets (small black circles) by default:-->
+        <h2>An unordered HTML list</h2>
+        <ul><!--Defines an unordered list-->
+          <li>idly</li><!--Defines a list item-->
+          <li>dosa</li>
+          <li>vada</li>
+        </ul>  
+        <!--An ordered list starts with the <ol> tag. Each list item starts with the <li> tag.
+        
+        The list items will be marked with numbers by default:-->
+        <ul style="list-style-type:none;">
+            <li>idly</li>
+            <li>dosa</li>
+            <li>vada</li>
+          </ul>
+          <ul style="list-style-type:square;">
+            <li>idly</li>
+            <li>dosa</li>
+            <li>vada</li>
+          </ul>
+          <ul style="list-style-type:circle;">
+            <li>idly</li>
+            <li>dosa</li>
+            <li>vada</li>
+          </ul>
+        <hr>
+        <h2>An ordered HTML list</h2>
+        <ol><!--Defines an ordered list-->
+            <li>idly</li><!--Defines a list item-->
+            <li>dosa</li>
+            <li>vada</li>
+          </ol>
+          <ol type="I">
+            <li>idly</li>
+            <li>dosa</li>
+            <li>vada</li>
+          </ol>
+          <ol type="i">
+            <li>idly</li>
+            <li>vada</li>
+            <li>dosa</li>
+          </ol>
+          <ol type="A">
+            <li>idly</li>
+            <li>dosa</li>
+            <li>vada</li>
+          </ol>
+          <ol type="a">
+            <li>idly</li>
+            <li>dosa</li>
+            <li>vada</li>
+          </ol>
+          <hr>
+          <!--HTML also supports description lists.
+        
+        A description list is a list of terms, with a description of each term.
+        
+        The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term:-->
+            <h2>Description HTML list</h2>
+          <dl><!--Defines a description list-->
+            <dt>Idly</dt><!--Defines a term/name in a description list-->
+            <dd>- along with sambar & coconut chutny</dd><!--Defines a description of a term/name in a description list-->
+            <dt>Dosa</dt>
+            <dd>- along with green chutny & red chutny</dd>
+          </dl>
+          <form action="" target="" method="">
+            <!-- action :The action attribute defines the action to be performed when the form is submitted.
+                target : The target attribute specifies where to display the response that is received after submitting the form.
+                 method: The method attribute specifies the HTTP method to be used when submitting the form data.-->
+          <label>Text box</label><input type="text"><br>
+          <label>To enter numbers</label> <input type="number"><br>
+          <label>Checkbox box</label> <input type="checkbox"><br>
+          <label>Range</label><input type="range"><br>
+          <label>Radio button</label><input type="radio"><br>
+          <label>Password</label> <input type="password"><br>
+          <label>color picker</label> <input type="color"><br>
+          <label>Calender Dates</label> <input type="date"><br>
+          <label>Email</label><input type="email"><br>
+          <label>To upoad file</label><input type="file"><br>
+        
+          <label>image</label><input type="image"><br>
+          <label>Month</label><input type="month"><br>
+          <label>Submit button</label> <input type="submit"><br>
+          <label>Reset button</label><input type="reset"><br>
+          <label>search box</label><input type="search"><br>
+          <label></label> <input type="tel"><br>
+          <label>select time</label><input type="time"><br>
+          <label>URL link box</label> <input type="url"><br>
+          <label>select week</label><input type="week"><br>
+          <button> This is button</button>
+               
+        </form>
+
+        <a href="https://www.youtube.com/watch?v=l5jUaLBXEg8"><button>This is button</button></a>
+        </body>
+    </html>
+    <html>
+    <head>
+    <title>cat</title>
+    <script>
+       
+        function fun(){
+
+            var S1 = form1.in1.value;
+            var  S2= form1.in2.value;
+            /*r S3=S1+" "+S2;*/
+            form1.fn.value=S1+" "+S2;
+
+          
+         }
+    
+    </script>
+    </head>
+    <body>
+    <form name="form1" method="get" >First Name: <br>
+    <input type="text" name="in1" >
+    <input TYPE="text" name="in2" >
+     <button onclick="fun()">Click me</button>
+    
+        <input type="text" name="fn" value="" >
+
+    </form>
+</body>
+</html>
+    
